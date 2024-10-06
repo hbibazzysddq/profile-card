@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:1rem;
+    background: rgb(237,233,224);
+}
+
+.card-container{
+    background-color: rgb(31,31,32);
+    color:white;
+    width:20rem;
+    padding: 2rem;
+    border-radius: .4rem;
+    border-radius:.4rem;
+    margin:.5rem;
+}
+
+.cart-top-navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.cart-top-navigation li, .cart-top-navigation ul{
+    list-style: none;
+    font-size:1.2rem;
+}
+
+.cart-top-navigation ul i {
+    margin-left:10px;
+}
+
+.user-image{
+    position:relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.user-image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 12vh;
+}
+
+.user-name,
+.about-user{
+    text-align: cent    er;
+    margin-top:1.5rem;
+}
+
+.user-name{
+    font-size:1.4rem;
+}
+
+.hire-me{
+    display: block;
+    margin:1.5rem auto;
+    border:none;
+    padding:.8rem 1.2rem;
+    border-radius:.2rem;
+    font-size:1rem;
+    cursor:pointer;
+    transition: .3s;
+}
+
+
+.hire-me:hover{
+    background: radial-gradient(circle at 100% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.social-container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.social-item{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    margin-top:1rem;
+}
+
+.social-item li{
+    list-style: none;
+    padding:0.8rem;
+    border-radius:15%;
+}
+
+.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+
+.youtube{
+    background-color:#ff0000;
+}
+
+.x{
+    background-color:#000000;
+}
+
+.social-item i {
+    font-size:1.5rem;
+}
+
+.social-item span{
+    margin-top:.5rem;
+}
